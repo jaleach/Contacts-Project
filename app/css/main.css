@@ -1,0 +1,13 @@
+.container {
+  margin-left: 50px;
+  border-radius: 15px; }
+
+input {
+  margin-left: 50px;
+  height: 17px;
+  width: 262px;
+  margin-top: 25px;
+  padding: 4px;
+  border-radius: 38px;
+  color: grey;
+  font-family: monospace; }
