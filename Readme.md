@@ -1,6 +1,11 @@
 ## Contacts Assignment 19
+## Contacts added and new ones can be added
+
 
 > Contacts Homework
+> Built using handlebars, backbone, backbone model & collection
+> Google fonts use in SCSS
+> twitter & linkedin logos used
 
 
 ## Usage

@@ -3,7 +3,7 @@
 
 body{
   @include linear-gradient(#000, #BADA55);
-  padding-bottom: 200px;
+  padding-bottom: 324px;
 }
 h1{
   height: 0px;
@@ -54,4 +54,15 @@ input{
   color: grey;
   font-family: monospace;
 }
+img{
 
+  width: 27px;
+  margin-bottom: -9px;
+  /* margin-top: 13px; */
+  margin-right: -31px;
+}
+h4{
+  font-family: 'Lobster', cursive;
+  margin-left: 10px;
+
+}
