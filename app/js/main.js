@@ -36,14 +36,17 @@ var consave = function(e){
 
 //Shows the contact on page
 var showCon = function(contact){
-  var contactHTML = "<li id='" + contact._id +"'>";
-      contactHTML += "<h5 class ='name'>"+ contact.last;
-      contactHTML += contact.first +'</h5>';
-      contactHTML += "<p>" + contact.email + "</p>";
-      contactHTML += contact.mobile;
-      contactHTML += contact.twit;
-      contactHTML += contact.linkd;
-      contactHTML += "</li>";
+  var contactHTML = template.example(contact);
+  // "<li id='" + contact._id +"'>";
+  //     contactHTML += "<h5 class ='name'>"+ contact.last;
+  //     contactHTML += contact.first +'</h5>';
+  //     contactHTML += "<p>" + contact.email + "</p>";
+  //     contactHTML += contact.mobile;
+  //     contactHTML += contact.twit;
+  //     contactHTML += contact.linkd;
+  //     contactHTML += "</li>";
+
+
 
 $("#contput").prepend(contactHTML);
 

@@ -1,14 +1,57 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+body{
+  @include linear-gradient(#000, #BADA55);
+  padding-bottom: 200px;
+}
+h1{
+  height: 0px;
+    border-right: 28px solid transparent;
+    border-left: 28px solid transparent;
+    border-bottom: 37px solid #C9BB92;
+    padding: 0 5px 5px 5px;
+    font-family: 'Lobster', cursive;
+    display: inline-block;
+}
 .container{
+  @include outer-container;
+
   margin-left: 50px;
   border-radius: 15px;
+    margin: auto;
+    background-color: #848F6F;
+    // height: 200px;
+    // width: 250px;
+    border-right: 28px solid #00055D;
+    border-bottom: 28px solid #41023E;
+}
+li{
+  display: inline-block;
+  width: 200px;
+  background-color: grey;
+  font-size: 12px;
+  border-radius: 8px;
+  padding-left: 9px;
+}
+button{
+  margin-left: 728px;
+  height: 34px;
+  width: 110px;
+  margin-top: 10px;
+  padding: 4px;
+  border-radius: 8px;
+  color: black;
+  font-family: 'Lobster', cursive;
 }
 input{
-  margin-left: 50px;
-  height: 17px;
+  margin-left: 65px;
+  height: 25px;
   width: 262px;
   margin-top: 25px;
   padding: 4px;
-  border-radius: 38px;
+  border-radius: 8px;
   color: grey;
   font-family: monospace;
 }
+
